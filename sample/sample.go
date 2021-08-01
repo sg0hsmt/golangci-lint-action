@@ -24,3 +24,7 @@ func retError() error {
 func retError2() error {
 	return errors.New("err2")
 }
+
+func retError3() error {
+	return errors.New("err3")
+}
